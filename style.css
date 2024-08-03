@@ -1,0 +1,290 @@
+/* .edu-au-vic-wa-nt-hand-<uniquifier> {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+/* .nav-link active{
+    font-size: 130px;
+} */
+.nav-item a{
+    font-size: 30px;
+    
+}
+.burger-images{
+    background-image: url(img/burger\ header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.burger-text{
+    text-align: center;
+    padding-top: 100px;
+}
+.burger-text h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+}
+.burger-text span{
+    color: rgb(255, 225, 0);
+    font-size: 80px;
+    font-weight: 900;
+    font-family:"Edu AU VIC WA NT Hand", cursive ;
+}
+.text-menu{
+    text-align: center;
+    padding-top: 80px;
+}
+.text-menu p{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: rgb(255, 225, 0);
+    font-size: 20px;
+}
+.text-menu h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.set-menu{
+    background-color: rgb(255, 230, 230);
+    display: flex;
+    border-radius: 30px;
+}
+.burger-launch img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+.text-launch {
+    /* padding-top: 80px; */
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.text-launch h3{
+    font-weight: 700;
+}
+.text-launch p{
+    font-size: 18px;
+    font-weight: 200;
+    /* padding-top: 10px;   */
+}
+.text-launch span{
+    font-size: 30px;
+    color:  rgb(183, 79, 0);
+    font-weight: 700;
+}
+.set-menu{
+    margin-top: 20px;
+}
+.width-button{
+    width: 100%;
+    margin-top: 50px;
+    height: 70px;
+    border: none;
+    border: 3px solid rgb(255, 128, 0);
+    font-size: 30px;
+    color: rgb(255, 128, 0);
+    background: none;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.shef-img{
+    padding-top: 60px;
+    text-align: center;
+}
+.shef-img img{
+    width: 100%;
+    height: auto;
+}
+.shef-text {
+    padding: 100px;
+}
+.yellow-text{
+    color: rgb(255, 225, 0);
+    font-size: 30px;
+    font-weight: 900;
+    font-family:"Edu AU VIC WA NT Hand", cursive ;
+}
+.shef-text h1{
+    font-size: 70px;
+}
+.shef-text p{
+    font-size: 20px;
+}
+.shef-text img{
+    padding-top: 20px;
+    width: 200px;
+}
+.carousel-item{
+    text-align: center;
+}
+.carousel-item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.carousel-item span{
+    font-family:"Edu AU VIC WA NT Hand", cursive ;
+    color: rgb(255, 225, 0);
+    font-size: 20px;
+    font-weight: 500;
+}
+.carousel-item h1{
+    font-weight: 700;
+}
+
+.carousel-control-prev-icon{
+  
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.carousel-control-next-icon{
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.footer-text{
+    padding-top: 30px;
+    text-align: center;
+}
+.footer-text h2{
+    font-weight: 700;
+    font-family:"Edu AU VIC WA NT Hand", cursive ;
+}
+.footer-text span{
+    color: rgb(255, 145, 1);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.footer-text input{
+    border-radius: 20px;
+    width: 60%;
+    height: 40px;
+    color: chocolate;
+    font-size: 20px;
+    border: 2px solid rgb(255, 111, 0);
+}
+
+.footer-text button{
+    width: 25%;
+    margin-top: 10px;
+    border: 2px solid rgb(255, 111, 0);
+    background: none;
+    border-radius: 20px;
+    color: chocolate;
+}
+.flex-mediaa{
+    display: flex;
+}
+.shef-top{
+    padding-top: 50px;
+}
+
+
+.robot-text{
+    color: chocolate;
+    font-family: "Edu AU VIC WA NT Hand", cursive  ;
+    font-size: 25px;
+    font-weight: 700;
+}
+.podpis-sheff h1{
+    font-size: 80px;
+}
+.podpis-sheff p{
+    font-size: 20px;
+}
+
+/* media skrenn */
+@media(max-width: 1400px){
+    .shef-text h1{
+        font-size: 35px;
+    }
+    .shef-text{
+        font-size: 20px;
+    }
+}
+@media(max-width: 1200px){
+    .shef-text h1{
+        font-size: 25px;
+    }
+    .shef-text{
+        font-size: 10px;
+        padding: 120px 0px 0px 40px;
+    }
+}
+@media(max-width: 1200px){
+
+    .podpis-sheff h1{
+        font-size: 40px;
+    }
+}
+@media(max-width: 1000px) {
+    .burger-launch{
+        display: block;
+        /* position: absolute; */
+        
+    }
+  .burger-launch img{
+    margin-top: 20px;
+  }
+
+    .shef-img img{
+        /* position: absolute; */
+      width: 400px;
+      height: auto
+    }
+   .shef-text {
+    padding: 60px 0px 0px 0px;
+   }
+    .shef-text h1{
+        font-size: 20px;
+    }
+    .yellow-text{
+        font-size: 10px;
+    }
+    .shef-text p{
+        font-size: 16px;
+    }
+    .carusel-text{
+        padding-top: 40px;
+    }
+
+}
+@media(max-width: 996px){
+    .shef-text h1{
+        font-size: 10px;
+    }
+    .yellow-text{
+        font-size: 50px;
+    }
+    .shef-text p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 992px){
+    .shef-img img{ 
+    max-width: 300px;
+    }
+    .shef-text h1{
+        font-size: 10px;
+    }
+    .yellow-text{
+        font-size: 25px;
+    }
+    .shef-text p{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
